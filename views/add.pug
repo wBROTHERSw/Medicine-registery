@@ -1,0 +1,26 @@
+extends layout.pug 
+
+block content 
+    div.container 
+        h1 Medicine Registration
+
+        if error
+            p.error Some error occured! Try again!
+
+        if success
+            p.success Medicine is added!
+
+        form.form(action="/add" method='POST')
+            label Name of medicine
+            input.input(type="text" name='title')
+
+            label Instructions
+            textarea.textarea(type="text" name="instruction")
+
+            label Quantity:
+            input.number(type="number" name='number')
+
+            label Supplier:
+            input.supplier(type="text" name="supplier")
+
+            button.btn Add medicine

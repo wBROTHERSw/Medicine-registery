@@ -1,0 +1,42 @@
+[
+  {
+    "id": "_0.f3ku4gnoghb",
+    "title": "THERAFLU",
+    "instruction": "Theraflu is an over-the-counter medication that attacks symptoms of the common cold, the flu, and fever.",
+    "number": "12",
+    "supplier": "GSK CONSUMER S.A.",
+    "status": false
+  },
+  {
+    "id": "_0.t2cmpcqbjl",
+    "title": "CIPROFLOXACIN",
+    "instruction": "Ciprofloxacin is a broad-spectrum antibiotic which means that it's used to treat a number of bacterial infections, such as: uncomplicated urinary tract infections (UTIs).",
+    "number": "17",
+    "supplier": "Dr. Reddy",
+    "status": false
+  },
+  {
+    "id": "_0.0lzt2r5nbcc",
+    "title": "Paracetamol",
+    "instruction": "Paracetamol (Panadol, Calpol, Alvedon) is an analgesic and antipyretic drug that is used to temporarily relieve mild-to-moderate pain and fever. It is commonly included as an ingredient in cold and flu medications and is also used on its own.",
+    "number": "9",
+    "supplier": "China",
+    "status": false
+  },
+  {
+    "id": "_0.025j7x5sfafc",
+    "title": "2",
+    "instruction": "2",
+    "number": "2",
+    "supplier": "2",
+    "status": false
+  },
+  {
+    "id": "_0.a56x85nas78",
+    "title": "3",
+    "instruction": "3",
+    "number": "3",
+    "supplier": "3",
+    "status": false
+  }
+]

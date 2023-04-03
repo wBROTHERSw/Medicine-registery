@@ -1,0 +1,15 @@
+extends layout.pug 
+
+block content
+    .section.flex
+        .info
+            h1.title #{ medicine.title }
+            p.instruction Instructions:
+                p.textarea #{ medicine.instruction }
+        .detail            
+            p.company Supplier name:
+                p.supplier #{ medicine.supplier }
+            p.available Available:
+                p.number #{ medicine.number }
+            a.btn(href=`/medicines/`) back
+            

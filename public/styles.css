@@ -1,0 +1,264 @@
+:root {
+    font-size: 18px;
+    color: #444;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+/* a:hover {
+    color: tomato;
+} */
+
+.navbar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1.5px dotted #0f8704;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    background: green;
+    border-radius: 5px;
+}
+
+.logo {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    font-size:1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.nav a:hover,
+.logo:hover {
+    color: tomato;
+}
+
+/* homepage styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.intro-msg {
+    padding: 20px 0 10px;
+    font-size: 2rem;
+    max-width: 100%;
+}
+
+.about {
+    padding: 20px 0 20px;
+    font-size: 1.5rem;
+    max-width: 100%;
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    padding: 30px 5px 20px;
+    font-size: 2rem;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+/* create page styles */
+.form {
+    max-width: 60%;
+    padding-top: 10px;
+}
+
+.input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    width: 100%;
+    height: 200px;
+    display: block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.number {
+    width: 15%;
+    height: 37px;
+    text-align: center;
+}
+
+.supplier {
+    width: 55%;
+    height: 37px;
+}
+
+.number,
+.supplier {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    font-size:1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    /* padding: 10px 20px; */
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn:hover {
+    color: tomato;
+}
+
+.delete {
+    display: inline-block;
+    background: tomato;
+    color: #fff;
+    font-size:1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.status,
+.no-status {
+    display: inline-block;
+    background: green;
+    color: #fff;
+    font-size:1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.status {
+    display: inline-block;
+    background: tomato;
+    color: #fff;
+    font-size:1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: inherit;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: line-through;
+}
+
+/* Medicines list page styles */
+.medicine-wrapper {    
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.medicine {
+    font-size: 1.3rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.medicine:hover {
+    background: #eee;
+}
+
+.error {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.success {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.2rem;
+    color: green;
+}
+
+/* Detail page styles */
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.info,
+.detail {
+    width: 49%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.info {
+    border: 1px solid #0f8704;
+    border-radius: 5px;
+}
+
+.title {
+    width: 100%;
+    padding: 10px;
+}
+
+.instruction {
+    width: 60%;
+    font-size: 20px;
+}
+
+.available,
+.company {
+    width: 30%;
+    display: inline-block;
+    font-size: 20px;
+}

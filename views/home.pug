@@ -1,3 +1,13 @@
 extends layout.pug 
 
-block number1 
+block content 
+    div.container 
+        .section.flex
+            .info
+                h1.intro-msg iMedic is a web application for drug registration.
+                p.about User can add, delete, view available drugs and get detailed information about them.
+            .detail
+                p.new Add New Medicine:
+                    a.btn(href='/add') Add
+                p.new Medicines List:
+                    a.btn(href='/medicines') List
