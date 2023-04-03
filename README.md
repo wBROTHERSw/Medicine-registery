@@ -6,7 +6,7 @@ To run this application locally you must follow the instructions below:
 
 1. Clone this repository
 ```bash
-git clone [repo link]
+git clone https://github.com/wBROTHERSw/Medicine-registery.git
 ```
 
 2. Install the dependencies
