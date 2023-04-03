@@ -25,7 +25,7 @@ node app
 - pug.js
 
 ### Web application repository on github
-[link to github]
+[link to github](https://github.com/wBROTHERSw/Medicine-registery.git)
 
 ### Web application repository on glitch
 [link to glitch]
