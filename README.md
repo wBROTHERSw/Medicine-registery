@@ -28,4 +28,4 @@ node app
 [link to github](https://github.com/wBROTHERSw/Medicine-registery.git)
 
 ### Web application repository on glitch
-[link to glitch](https://breezy-chivalrous-mailbox.glitch.me/)
+[link to glitch](https://fantastic-fluoridated-answer.glitch.me/)
